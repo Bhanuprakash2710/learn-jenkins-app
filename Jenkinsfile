@@ -7,7 +7,7 @@ pipeline {
             agent{
                 docker{
                     image 'node:18-alpine'
-                    resudeNode true
+                    reuseNode true
                 }
             }
             steps {
